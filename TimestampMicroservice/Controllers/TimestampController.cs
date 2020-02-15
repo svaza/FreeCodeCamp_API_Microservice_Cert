@@ -8,6 +8,7 @@ namespace TimestampMicroservice.Controllers
     public class TimestampController : ControllerBase
     {
         [Route("{dateParam}")]
+        [Route("")]
         public IActionResult Get(string dateParam)
         {
             DateTimeOffset currentDate;
