@@ -2,6 +2,10 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://svaza.local.com",
+      "sslPort": 0
+    },
     "iisExpress": {
       "applicationUrl": "http://localhost:62190",
       "sslPort": 0
@@ -18,9 +22,9 @@
       }
     },
     "TimestampMicroservice": {
-      "commandName": "Project",
+      "commandName": "IIS",
       "launchBrowser": true,
-      "launchUrl": "api/timestamp",
+      "launchUrl": "api/whoami",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
